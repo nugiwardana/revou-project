@@ -252,6 +252,22 @@ input[type=submit]:hover {
     background-color: #0083fd;
 }
 
+/* Package */
+.package-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    row-gap: 40px;
+    margin-top: 1rem;
+}
+
+.package-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
 footer{
     /* background-color :#f1f1f1; */
     text-align : center;
