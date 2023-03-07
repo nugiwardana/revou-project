@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header-wrapper" style="border-bottom: 1px solid black;">
+        <navbar class="container">
+           <div class="navbar">
+                <img class="logo" src="./assets/gambar/travel_logo.png" alt="logo">
+                <div class="menu">
+                    <a class="menu-item" href="#home">Home</a>
+                    <a class="menu-item" href="#ourpackage">Our Package</a>
+                    <a class="menu-item" href="#call-us">Call Us</a>
+                </div>
+           </div>
+        </navbar>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-title">
+                  
+                    <h1>Your Trusted Travel Agent's</h1>
+                    <h6>Your Happiness</h6>
+                </div>
+            </div>
+        </section>
+        <section id="about-contact">
+            <div class="container">
+                <div class="about-contact">
+                    <div class="about">
+                        <!-- <img src="https://d1vbn70lmn1nqe.cloudfront.net/prod/wp-content/uploads/2021/10/28064854/12.-Tips-Merawat-Anak-Kucing-Munchkin.jpg.webp" alt=""> -->
+                        <!-- <img src="./assets/gambar/mountain.jpg" style="width:100%" alt=""> -->
+                        <div>
+                            <img
+                              class="img-slideshow"
+                              src="./assets/gambar/beach.png" alt="Slider 1"
+                            />
+                            <img
+                              class="img-slideshow"
+                              src="./assets/gambar/hotel.jpg" alt="Slider 2"
+                            />
+                            <img
+                              class="img-slideshow"
+                              src="./assets/gambar/mountain.jpg" alt="Slider 3"
+                            />
+                        </div>
+
+                        <hr>
+                        <div class="about-img" class="about-content">
+                            <div class="content-caption">
+                                <p>Liburan Menyenangkan Bersama Travel Agenku</p>
+                            </div>
+                            <div class="content-person">
+                                <!-- <img src="https://placekitten.com/50/50" alt=""> -->
+                                <img src="./assets/gambar/icon_user.png" style="width: 50px; height: 50px;" alt="">
+                                <div class="person-info">
+                                    <h6>Florence Hughes</h6>
+                                    <p>Ibu Rumah Tangga, 30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr class="border">
+                        <div class="about-information">
+                            <h6 class="information-title">Benefit Yang Kamu Dapat, Bila Menggunakan Travel Kita Sebagai Pendamping Wisata</h6>
+                            <ul class="information-list">
+                                <li>
+                                    <div class="list-number">1</div>
+                                    <p class="list-paragraf">Bepergian Membuat Anda Lebih Bahagia. pengalaman perjalanan dengan mudah membuat anda bahagia</p>
+                                </li>
+                                <li>
+                                    <div class="list-number">2</div>
+                                    <p class="list-paragraf">Bepergian Memungkinkan Anda Berhenti & Mengisi Ulang. Salah satu hal terbaik yang dapat Anda lakukan untuk kesehatan mental</p>
+                                </li>
+                                <li>
+                                    <div class="list-number">3</div>
+                                    <p class="list-paragraf">Bepergian Mengekspos Orang Lain pada Hal-Hal Baru. Saat Anda bertemu seseorang yang baru, mereka juga akan bertemu dengan Anda.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="card">
+                            <div class="card-title">
+                                <h4>Contact Us</h4>
+                                <p>Sales akan menghubungi anda 1 x 24 jam setelah data kami terima</p>
+                            </div>
+                            <form name="message-form" onsubmit="return validasi()">
+                                <div class="input">
+                                    <label for="nama">Nama Lengkap : </label>
+                                    <input type="text" name="nama" id="nama">
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <label for="jk">Jenis Kelamin : </label>
+                                        <input type="radio" id="jk" name="jk" value="Laki-laki" />
+                                        <label for="jk">Laki-laki</label>
+                                        <input type="radio" id="jk" name="jk" value="Perempuan" />
+                                        <label for="jk">Perempuan</label>
+                                    </div>
+                                </div>
+                                <div class="input">
+                                    <label for="email">Alamat Email : </label>
+                                    <input type="email" name="email" id="email" >
+                                </div>
+                                <div class="input">
+                                    <label for="minati">Apa Yang Anda Minati ?</label>
+                                    <select name="minati" id="minati">
+                                        <option value=""></option>
+                                        <option value="Perjalanan Luar Negeri">Perjalanan Luar Negeri</option>
+                                        <option value="Perjalanan Dalam Negeri">Perjalanan Dalam Negeri</option>
+                                        <option value="Lainnya">Lainnya</option>
+                                    </select>
+                                </div>
+                                <input type="submit" value="send">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <hr/>
+    <footer>
+        &copy; Copyright <strong><span>Muhammad Nugi Kusuma Wardana</span></strong>. All Rights Reserved
+    </footer>
+</body>
+    <script src="./javascript/index.js"></script>
+</html>
