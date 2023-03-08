@@ -415,4 +415,27 @@ footer{
         width: 100%;
         margin-top: 0;
     }
+
+    .package-header {
+        margin-top:  16px ;
+    }
+
+    .package-title {
+        font-size: 30px;
+        height: 8vh;
+    }
+
+    .package-wrapper {
+        padding:  16px;
+    }
+
+    .package-1, .package-2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        gap: .6rem;
+    }
+
+    .garis-package {
+        margin: 1.5rem 0;
+    }
 }
